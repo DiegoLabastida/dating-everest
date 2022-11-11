@@ -19,14 +19,14 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/basic")
-public class ControllerGeneral {
+public class GeneralController {
 
     private final UserServiceImpl userService;
     private final ProfileServiceImpl profileService;
     private final JobServiceImpl jobService;
     private final ContractServiceImpl contractService;
 
-    public ControllerGeneral(UserServiceImpl userService, ProfileServiceImpl profileService, JobServiceImpl jobService, ContractServiceImpl contractService) {
+    public GeneralController(UserServiceImpl userService, ProfileServiceImpl profileService, JobServiceImpl jobService, ContractServiceImpl contractService) {
         this.userService = userService;
         this.profileService = profileService;
         this.jobService = jobService;
