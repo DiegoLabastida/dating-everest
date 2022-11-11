@@ -22,7 +22,9 @@ Author: Diego Octavio Labastida Tolalpa
 11. Perform service to check the match percentage between two users.
 12. Add relationships between Match and Users.
 
-## API
+## REST API
+
+##### DataBase in Memory H2
 
 ### MatchController
 
